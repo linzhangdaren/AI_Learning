@@ -1,0 +1,83 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "map": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "optional": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "initializer_list": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "typeinfo": "cpp",
+        "chrono": "cpp",
+        "codecvt": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "ratio": "cpp",
+        "*.2cpp": "c",
+        "*. class object cpp": "c",
+        "*. template class member definition outside of classcpp": "c",
+        "thread": "cpp"
+    },
+    "files.encoding": "utf8", // 设置文件编码为UTF-8，确保中文等字符正确显示
+    "locale": "zh-cn", // 设置VS Code界面语言为中文简体
+    "Codegeex.Comment.LanguagePreference": "中文", // CodeGeeX插件注释生成使用中文
+    "Codegeex.Chat.LanguagePreference": "中文", // CodeGeeX聊天功能使用中文
+    "Codegeex.SidebarUI.LanguagePreference": "中文", // CodeGeeX侧边栏UI使用中文
+    "Codegeex.Privacy": true, // 启用CodeGeeX隐私模式
+    "Codegeex.CompletionModel": "CodeGeeX Lite", // 使用CodeGeeX轻量模型进行代码补全
+    "Codegeex.CandidateNum": "1 (快)", // 设置代码补全候选数量为1以提高速度
+    "Codegeex.GenerationPreference": "line by line", // 逐行生成代码补全
+    "Codegeex.CompletionDelay": 0.1, // 代码补全触发延迟(秒)
+    "Codegeex.UseSimilarFileForPrompt": false, // 不使用相似文件作为生成提示
+    "liveServer.settings.port": 5559, // Live Server插件的端口号设置
+    "Codegeex.RepoIndex": true, // 启用CodeGeeX代码仓库索引功能
+
+    "editor.fontFamily": "JetBrains Mono , Consolas , Microsoft YaHei", // 编辑器字体设置
+    "editor.fontSize": 14, // 字体大小设置为14px，平衡可读性与屏幕利用率
+    "editor.fontWeight": "650", // 字体粗细设置为标准(400等同于normal)，避免过细影响阅读
+    "editor.letterSpacing": 0, // 字母间距微调：增加0.5px间距，提高代码字符间辨识度
+    "editor.lineHeight": 1.5, // 行高设置为1.5倍，优化多行代码间的垂直空间和可读性
+    "editor.fontLigatures": false, // 启用字体连字特性：将特殊符号组合显示为更易识别的单一符号(如==→≡, ->→→)
+
+    "terminal.integrated.shellArgs.windows": ["/K", "chcp 65001 >nul"], // Windows终端设置UTF-8编码
+    "terminal.integrated.fontFamily": "Consolas",
+    "commentTranslate.source": "Bing" // 终端字体设置为Consolas
+}
